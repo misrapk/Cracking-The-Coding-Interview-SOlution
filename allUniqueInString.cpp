@@ -28,8 +28,8 @@ bool isUnique(string str){
 int main(){
     string str = "bcdaf";
 
-    if(isUnique(str) == true) cout<<"All unique \n";
-    else cout<<"NOt Unique";
+    if(isUnique(str) == true) cout<<"All unique"<<endl;
+    else cout<<"Not Unique";
 
     return 0;
 }
